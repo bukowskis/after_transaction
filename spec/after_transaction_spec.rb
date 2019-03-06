@@ -1,6 +1,6 @@
+require 'spec_helper'
 require 'sqlite3'
 require 'active_record'
-require 'after_transaction'
 
 ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memory:')
 
