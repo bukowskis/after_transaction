@@ -44,5 +44,9 @@ module AfterTransaction
     end
 
     def rolledback!(*_); end
+
+    def add_to_transaction
+      AfterTransaction.call &@callable
+    end
   end
 end
