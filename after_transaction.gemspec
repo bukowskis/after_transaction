@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name        = 'bukowskis_after_transaction'
-  s.version     = '0.0.2'
+  s.name        = 'after_transaction'
+  s.version     = '0.0.3'
   s.authors     = %w[Bukowskis]
   s.summary     = 'Run blocks of code after transaction is commited'
   s.description = 'Run blocks of code after transaction is commited'
-  s.homepage    = 'https://github.com/bukowskis/bukowskis_after_transaction'
+  s.homepage    = 'https://github.com/bukowskis/after_transaction'
 
   s.files = Dir["{lib}/**/*", "README.md"]
   s.test_files = Dir["spec/**/*"]
